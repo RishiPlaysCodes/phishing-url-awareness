@@ -1,0 +1,23 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_at_symbol_and_http (test_checker.PhishingCheckerTests.test_at_symbol_and_http) ... ok
+test_clean_example_url (test_checker.PhishingCheckerTests.test_clean_example_url) ... ok
+test_empty_input (test_checker.PhishingCheckerTests.test_empty_input) ... ok
+test_ip_and_http (test_checker.PhishingCheckerTests.test_ip_and_http) ... ok
+test_malformed_url_does_not_crash (test_checker.PhishingCheckerTests.test_malformed_url_does_not_crash) ... ok
+test_many_hostname_segments (test_checker.PhishingCheckerTests.test_many_hostname_segments) ... ok
+test_missing_scheme_defaults_to_http (test_checker.PhishingCheckerTests.test_missing_scheme_defaults_to_http) ... ok
+test_punycode (test_checker.PhishingCheckerTests.test_punycode) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
